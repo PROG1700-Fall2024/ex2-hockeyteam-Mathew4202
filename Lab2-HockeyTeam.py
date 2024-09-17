@@ -26,14 +26,20 @@ def main():
     Team = input("Please enter the name of your hockey team")
 
     #Ask user how many wins the team has
-    Wins = input("How many wins does " + str(Team) + " has")
+    Wins = int(input("How many wins does " + str(Team) + " has"))
 
     #Ask user how many losses the team has
-    Losses = input("How many Loss does " + str(Team) + " has")
+    Losses = int(input("How many Loss does " + str(Team) + " has"))
 
     #Calcuations
+    Games = Wins + Losses
+    Percentage = 100*(Wins/Games)
+    formatPercentage = "{:.4f}".format(Percentage)
+    print("The " + Team + " has " + str(Wins) + " wins and " + str(Losses) + " losses, with a win percentage of " + str(formatPercentage) + ".")
+    
 
     #Thankyou message
+    print("Thanks for using our program to calculate the percentage of your hockey team, hope we see you soon")
 
 
 
