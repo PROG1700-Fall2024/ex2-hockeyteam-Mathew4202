@@ -13,7 +13,7 @@
 """
 Student Name:    Mathew Akunyili
 Program Title:  Hockey Team
-Description:    
+Description:    calculate the win percentage of an hockey team the user gives
 """
 
 def main():
@@ -23,11 +23,13 @@ def main():
     print("Hey welcome to our peogram which helps you calculate the win percentge of any team")
 
     #Ask user for the hockey team
-    Team = print("Please Enter your hockey team")
+    Team = input("Please enter the name of your hockey team")
 
     #Ask user how many wins the team has
+    Wins = input("How many wins does " + str(Team) + " has")
 
     #Ask user how many losses the team has
+    Losses = input("How many Loss does " + str(Team) + " has")
 
     #Calcuations
 
