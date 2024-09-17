@@ -10,8 +10,28 @@
 #Purpose/Concepts: Input and output to screen, string concatentation, string formatting, datatype casting, 
 # simple math operations
 
+"""
+Student Name:    Mathew Akunyili
+Program Title:  Hockey Team
+Description:    
+"""
+
 def main():
     # YOUR CODE STARTS HERE, each line must be indented (one tab)
+
+    #Welcome user to program
+    print("Hey welcome to our peogram which helps you calculate the win percentge of any team")
+
+    #Ask user for the hockey team
+    Team = print("Please Enter your hockey team")
+
+    #Ask user how many wins the team has
+
+    #Ask user how many losses the team has
+
+    #Calcuations
+
+    #Thankyou message
 
 
 
